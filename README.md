@@ -46,10 +46,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-Step 1: Create Azure Resource Group and Virtual Network
-</p>
-<p>
+
+**Step 1: Create Azure Resource Group and Virtual Network**
+
 <img width="1364" height="286" alt="1-resource group" src="https://github.com/user-attachments/assets/4b9a2b2f-f8f5-4afa-a7fc-2e3259cf0561" />
 </p>
 <p>
@@ -66,10 +65,9 @@ The Virtual Network provides secure communication between virtual machines, whil
 </p>
 <br />
 
-<p>
-Step 2: Create the Domain Controller VM (DC-1)
-</p>
-<p>
+
+**Step 2: Create the Domain Controller VM (DC-1)**
+
 <img width="1178" height="499" alt="3- dc1" src="https://github.com/user-attachments/assets/cbf200bb-1f3f-4f62-8e2b-ab17647d6791" />
 </p>
 
@@ -83,10 +81,9 @@ A Domain Controller provides centralized authentication, authorization, and dire
 </p>
 <br />
 
-<p>
-Step 3: Create the Client VM (Client-1)
-</p>
-<p>
+
+**Step 3: Create the Client VM (Client-1)**
+
 <img width="1199" height="458" alt="4 - client 1" src="https://github.com/user-attachments/assets/7db93827-3316-4fb6-9ee3-d899416b5a87" />
 </p>
 <p>
@@ -99,10 +96,9 @@ This machine simulates a workstation in a corporate environment and will later b
 </p>
 <br />
 
-<p>
-Step 4: Set DC-1 NIC Private address to be static
-</p>
-<p>
+
+**Step 4: Set DC-1 NIC Private address to be static**
+
 <img width="573" height="668" alt="5 - dc1 Nic static" src="https://github.com/user-attachments/assets/03a20566-17b5-4e2b-9587-9caea8618c0d" />
 </p>
 
@@ -116,10 +112,9 @@ Domain Controllers provide critical services such as Active Directory and DNS. I
 </p>
 <br />
 
-<p>
-Step 5: Disable DC-1  windows Firewall
-</p>
-<p>
+
+**Step 5: Disable DC-1  windows Firewall**
+
 <img width="912" height="731" alt="6 - firewall off" src="https://github.com/user-attachments/assets/67308905-8bb1-4fdc-8f5e-af42294242d5" />
 </p>
 
@@ -133,10 +128,9 @@ Disabling the firewall during initial setup helps determine whether connectivity
 </p>
 <br />
 
-<p>
-Step 6: Configure DNS Settings
-</p>
-<p>
+
+**Step 6: Configure DNS Settings**
+
 <img width="737" height="622" alt="7 - client 1 to dc 1 dns" src="https://github.com/user-attachments/assets/317e5729-e551-4e39-9646-0acab99cc6de" />
 </p>
 
@@ -150,10 +144,9 @@ Active Directory relies heavily on DNS to locate domain resources and services. 
 </p>
 <br />
 
-<p>
-Step 7: Restart Client-1
-</p>
-<p>
+
+**Step 7: Restart Client-1**
+
 <img width="956" height="326" alt="8 - client1 restart" src="https://github.com/user-attachments/assets/dab8ca97-b0a3-4522-8ab9-8b17cba7c0c2" />
 </p>
 
@@ -167,10 +160,9 @@ Restarting the client ensures that any recent network configuration changes, suc
 </p>
 <br />
 
-<p>
-Step 8: Verify Network Connectivity
-</p>
-<p>
+
+**Step 8: Verify Network Connectivity**
+
 <img width="630" height="705" alt="9 - client 1 connectivity " src="https://github.com/user-attachments/assets/25bbc140-40f8-49fd-99b7-0d33121e5210" />
 </p>
 
@@ -184,10 +176,9 @@ Verifying connectivity ensures that domain services, DNS resolution, and authent
 </p>
 <br />
 
-<p>
-Step 9: Install Active Directory
-</p>
-<p>
+
+**Step 9: Install Active Directory**
+
 <img width="779" height="561" alt="10 - AD installed" src="https://github.com/user-attachments/assets/6b73463b-d8c3-4ee6-a92a-531c6f75f306" />
 </p>
 
@@ -201,10 +192,9 @@ AD DS provides the framework for centralized identity management, enabling admin
 </p>
 <br />
 
-<p>
-Step 10: Promote the Server to a Domain Controller
-</p>
-<p>
+
+**Step 10: Promote the Server to a Domain Controller**
+
 <img width="776" height="799" alt="11 - Server to DC" src="https://github.com/user-attachments/assets/c3d3267c-4188-422c-9177-7f00bd19d43f" />
 </p>
 
@@ -218,10 +208,9 @@ This step establishes the foundation of the organization's identity infrastructu
 </p>
 <br />
 
-<p>
-Step 11: Create Organizational Units (OUs) AND Create a domain Admin user (jane) within the domain (mydomain.com)
-</p>
-<p>
+
+**Step 11: Create Organizational Units (OUs) AND Create a domain Admin user (jane) within the domain (mydomain.com)**
+
 <img width="759" height="535" alt="12 - jane admin" src="https://github.com/user-attachments/assets/1189fece-b860-4b50-bd3c-6fda3205970b" />
 </p>
 
@@ -235,10 +224,9 @@ OUs simplify management and allow administrators to apply permissions and Group 
 </p>
 <br />
 
-<p>
-Step 12: Join Client-1 to the Domain
-</p>
-<p>
+
+**Step 12: Join Client-1 to the Domain**
+
 <img width="745" height="522" alt="13 - client 1 join domain" src="https://github.com/user-attachments/assets/db07d21c-d6cd-4c53-9414-cd7a143134c6" />
 </p>
 
@@ -252,10 +240,9 @@ Joining the domain enables centralized management of the workstation, including 
 </p>
 <br />
 
-<p>
-Step 13: Set up remote desktop for non-administrative users on Client-1
-</p>
-<p>
+
+**Step 13: Set up remote desktop for non-administrative users on Client-1**
+
 <img width="459" height="668" alt="14 - rdp access" src="https://github.com/user-attachments/assets/6c6d8199-1ad7-4e98-b980-628bc34ad1df" />
 </p>
 
@@ -269,13 +256,11 @@ Remote administration is a common requirement in enterprise environments and all
 </p>
 <br />
 
-<p>
-Step 14: Generate 1000 Users with PowerShell and attempt to log into Client-1 with one of the users
-</p>
-<p>
+
+**Step 14: Generate 1000 Users with PowerShell and attempt to log into Client-1 with one of the users**
+
 <img width="789" height="851" alt="15 - 1000 users" src="https://github.com/user-attachments/assets/1fabc082-213d-4476-974e-478d84fa6efc" />
-</p>
-<p>
+
 <img width="804" height="645" alt="16 - baru decu" src="https://github.com/user-attachments/assets/a6981f8e-3771-45d1-885c-a60697bae560" />
 </p>
 
@@ -289,8 +274,8 @@ Automation reduces administrative effort, minimizes errors, and demonstrates pra
 </p>
 <br />
 
-<p>
-Step 15: Dealing with accounts lockouts
+
+**Step 15: Dealing with accounts lockouts**
 
 - Set account lockout policy in Active directory 
 <p>
@@ -318,13 +303,11 @@ Account lockouts are a common Help Desk and System Administration issue. Underst
 </p>
 <br />
 
-<p>
-Step 16: Enabling and Disabling User Accounts
-</p>
-<p>
+
+**Step 16: Enabling and Disabling User Accounts**
+
 <img width="626" height="621" alt="20 - disable account" src="https://github.com/user-attachments/assets/9c5e9b30-f4bf-4e51-88f2-4a91ca9ac20a" />
-</p>
-<p>
+
 <img width="632" height="537" alt="21 - acct disabled" src="https://github.com/user-attachments/assets/3c45ff1c-7957-42fd-9a05-b306aeb9684d" />
 </p>
 
@@ -338,10 +321,9 @@ Disabling accounts is a common security and administrative practice used when em
 </p>
 <br />
 
-<p>
-Step 17:Observing Logs
-</p>
-<p>
+
+**Step 17:Observing Logs**
+
 <img width="770" height="673" alt="22 - security logs" src="https://github.com/user-attachments/assets/5d420ccd-7178-4889-9018-0c6a8628a2e1" />
 </p>
 
