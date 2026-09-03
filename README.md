@@ -162,7 +162,7 @@ Restarting the client ensures that any recent network configuration changes, suc
 
 **Step 8: Verify Network Connectivity**
 
-<img width="630" height="705" alt="9 - client 1 connectivity " src="https://github.com/user-attachments/assets/25bbc140-40f8-49fd-99b7-0d33121e5210" />
+![Client 1 Connectivity](screenshots/9-client-1-connectivity.png)
 </p>
 
 <p>
@@ -178,7 +178,7 @@ Verifying connectivity ensures that domain services, DNS resolution, and authent
 
 **Step 9: Install Active Directory**
 
-<img width="779" height="561" alt="10 - AD installed" src="https://github.com/user-attachments/assets/6b73463b-d8c3-4ee6-a92a-531c6f75f306" />
+![AD Installed](screenshots/10-AD-installed.png)
 </p>
 
 <p>
@@ -194,7 +194,7 @@ AD DS provides the framework for centralized identity management, enabling admin
 
 **Step 10: Promote the Server to a Domain Controller**
 
-<img width="776" height="799" alt="11 - Server to DC" src="https://github.com/user-attachments/assets/c3d3267c-4188-422c-9177-7f00bd19d43f" />
+![Server To DC](screenshots/11-Server-to-DC.png)
 </p>
 
 <p>
@@ -210,7 +210,7 @@ This step establishes the foundation of the organization's identity infrastructu
 
 **Step 11: Create Organizational Units (OUs) AND Create a domain Admin user (jane) within the domain (mydomain.com)**
 
-<img width="759" height="535" alt="12 - jane admin" src="https://github.com/user-attachments/assets/1189fece-b860-4b50-bd3c-6fda3205970b" />
+![Jane Admin](screenshots/12-jane-admin.png)
 </p>
 
 <p>
@@ -226,7 +226,7 @@ OUs simplify management and allow administrators to apply permissions and Group 
 
 **Step 12: Join Client-1 to the Domain**
 
-<img width="745" height="522" alt="13 - client 1 join domain" src="https://github.com/user-attachments/assets/db07d21c-d6cd-4c53-9414-cd7a143134c6" />
+![Client 1 Join Domain](screenshots/13-client-1-join-domain.png)
 </p>
 
 <p>
@@ -242,7 +242,7 @@ Joining the domain enables centralized management of the workstation, including 
 
 **Step 13: Set up remote desktop for non-administrative users on Client-1**
 
-<img width="459" height="668" alt="14 - rdp access" src="https://github.com/user-attachments/assets/6c6d8199-1ad7-4e98-b980-628bc34ad1df" />
+![Remote Dsktp for non Admin Users](screenshots/14-rdp-access.png)
 </p>
 
 <p>
@@ -258,9 +258,9 @@ Remote administration is a common requirement in enterprise environments and all
 
 **Step 14: Generate 1000 Users with PowerShell and attempt to log into Client-1 with one of the users**
 
-<img width="789" height="851" alt="15 - 1000 users" src="https://github.com/user-attachments/assets/1fabc082-213d-4476-974e-478d84fa6efc" />
+![Creating 1000 Users](screenshots/15-1000-users.png)
 
-<img width="804" height="645" alt="16 - baru decu" src="https://github.com/user-attachments/assets/a6981f8e-3771-45d1-885c-a60697bae560" />
+![User Baru Decu](screenshots/16-baru-decu.png)
 </p>
 
 <p>
@@ -277,19 +277,18 @@ Automation reduces administrative effort, minimizes errors, and demonstrates pra
 **Step 15: Dealing with accounts lockouts**
 
 - Set account lockout policy in Active directory 
-<p>
-<img width="926" height="735" alt="17 - set account lock out policy     " src="https://github.com/user-attachments/assets/a2a4997e-cb23-42ed-b3fa-5cd68df95db2" />
+
+![Set Account Lock Out Policy](screenshots/17-set-account-lock-out-policy.png)
 </p>
 
 - Lock user account out (baru.decu)
-<p>
-<img width="580" height="527" alt="18 - log in failure" src="https://github.com/user-attachments/assets/0b887307-b170-4632-a77a-7cd111e73123" />
+
+![Log In Failure](screenshots/18-log-in-failure.png)
 </p>
 
 - Unlock user account (baru.decu)
 
-<p>
-<img width="637" height="660" alt="19 - unlock account baru decu" src="https://github.com/user-attachments/assets/4c59bab0-d6ad-413d-9da2-5974b295cee2" />
+![Unlock User Account Baru Decu](screenshots/19-unlock-account-baru-decu.png)
 </p>
   
 <p>
@@ -305,9 +304,9 @@ Account lockouts are a common Help Desk and System Administration issue. Underst
 
 **Step 16: Enabling and Disabling User Accounts**
 
-<img width="626" height="621" alt="20 - disable account" src="https://github.com/user-attachments/assets/9c5e9b30-f4bf-4e51-88f2-4a91ca9ac20a" />
+![Disable Account](screenshots/20-disable-account.png)
 
-<img width="632" height="537" alt="21 - acct disabled" src="https://github.com/user-attachments/assets/3c45ff1c-7957-42fd-9a05-b306aeb9684d" />
+![Account Disabled](screenshots/21-acct-disabled.png)
 </p>
 
 <p>
@@ -323,7 +322,7 @@ Disabling accounts is a common security and administrative practice used when em
 
 **Step 17:Observing Logs**
 
-<img width="770" height="673" alt="22 - security logs" src="https://github.com/user-attachments/assets/5d420ccd-7178-4889-9018-0c6a8628a2e1" />
+![Security Logs](screenshots/22-security-logs.png)
 </p>
 
 <p>
