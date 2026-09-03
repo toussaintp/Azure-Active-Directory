@@ -49,10 +49,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 **Step 1: Create Azure Resource Group and Virtual Network**
 
-<img width="1364" height="286" alt="1-resource group" src="https://github.com/user-attachments/assets/4b9a2b2f-f8f5-4afa-a7fc-2e3259cf0561" />
+![Resource Group](screenshots/1-resource-group.png)
 </p>
-<p>
-<img width="1195" height="372" alt="2- virtual network" src="https://github.com/user-attachments/assets/b2414c3e-b8ac-4e7f-94b4-cc3ebef25276" />
+
+![Virtual Network](screenshots/2-virtual-network.png)
 </p>
 
 <p>
@@ -68,7 +68,7 @@ The Virtual Network provides secure communication between virtual machines, whil
 
 **Step 2: Create the Domain Controller VM (DC-1)**
 
-<img width="1178" height="499" alt="3- dc1" src="https://github.com/user-attachments/assets/cbf200bb-1f3f-4f62-8e2b-ab17647d6791" />
+![DC-1](screenshots/3-dc1.png)
 </p>
 
 <p>
@@ -84,8 +84,7 @@ A Domain Controller provides centralized authentication, authorization, and dire
 
 **Step 3: Create the Client VM (Client-1)**
 
-<img width="1199" height="458" alt="4 - client 1" src="https://github.com/user-attachments/assets/7db93827-3316-4fb6-9ee3-d899416b5a87" />
-</p>
+![Client](screenshots/4-client-1.png)
 <p>
   
 - What was done:
@@ -99,7 +98,7 @@ This machine simulates a workstation in a corporate environment and will later b
 
 **Step 4: Set DC-1 NIC Private address to be static**
 
-<img width="573" height="668" alt="5 - dc1 Nic static" src="https://github.com/user-attachments/assets/03a20566-17b5-4e2b-9587-9caea8618c0d" />
+![DC1 NIC Static](screenshots/5-dc1-Nic-static.png)
 </p>
 
 <p>
@@ -115,7 +114,7 @@ Domain Controllers provide critical services such as Active Directory and DNS. I
 
 **Step 5: Disable DC-1  windows Firewall**
 
-<img width="912" height="731" alt="6 - firewall off" src="https://github.com/user-attachments/assets/67308905-8bb1-4fdc-8f5e-af42294242d5" />
+![Firewall Off](screenshots/6-firewall-off.png)
 </p>
 
 <p>
@@ -131,7 +130,7 @@ Disabling the firewall during initial setup helps determine whether connectivity
 
 **Step 6: Configure DNS Settings**
 
-<img width="737" height="622" alt="7 - client 1 to dc 1 dns" src="https://github.com/user-attachments/assets/317e5729-e551-4e39-9646-0acab99cc6de" />
+![Client To DC 1](screenshots/7-client-1-to-dc-1-dns.png)
 </p>
 
 <p>
@@ -147,7 +146,7 @@ Active Directory relies heavily on DNS to locate domain resources and services. 
 
 **Step 7: Restart Client-1**
 
-<img width="956" height="326" alt="8 - client1 restart" src="https://github.com/user-attachments/assets/dab8ca97-b0a3-4522-8ab9-8b17cba7c0c2" />
+![Restart Client 1](screenshots/7-client-1-to-dc-1-dns.png)
 </p>
 
 <p>
